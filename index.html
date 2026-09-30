@@ -290,6 +290,9 @@
       .paper-authors { margin:25px 0 0; color:#657080; font-size:17px; }
       .author-list { display:flex; justify-content:center; flex-wrap:wrap; gap:12px 26px; margin:26px auto 0; padding:0; list-style:none; max-width:930px; color:#254c78; font-size:19px; line-height:1.55; }
       .author-list li { white-space:nowrap; }
+      .author-list a { color:inherit; text-decoration:none; text-underline-offset:3px; }
+      .author-list a:hover, .author-list a:focus-visible { text-decoration:underline; }
+      .author-list a:focus-visible { outline:2px solid #254c78; outline-offset:4px; border-radius:2px; }
       .author-list sup { font-size:65%; margin-left:2px; }
       .affiliations { margin:22px auto 0; color:#526071; font-size:16px; line-height:1.9; }
       .affiliations span { display:inline-block; margin:0 10px; }
@@ -337,9 +340,9 @@
       <section class="paper-hero" aria-labelledby="paperTitle">
         <h1 id="paperTitle"><span>WorldSonus:</span><br>Bringing Sound to Worlds</h1>
         <ul class="author-list" aria-label="Authors">
-          <li>Pengjun Fang<sup>1,2</sup></li><li>Jingyi Fa<sup>3</sup></li><li>Kam Man Wu<sup>1,2</sup></li><li>Jiaming Wang<sup>2</sup></li>
+          <li><a href="https://pengjunfang.com/" target="_blank" rel="noopener noreferrer">Pengjun Fang</a><sup>1,2</sup></li><li>Jingyi Fa<sup>3</sup></li><li>Kam Man Wu<sup>1,2</sup></li><li>Jiaming Wang<sup>2</sup></li>
           <li>Haoyuan Huang<sup>2</sup></li><li>Yaguang Wu<sup>3</sup></li><li>Xiangjun Huang<sup>3</sup></li><li>Ziyang Ma<sup>4</sup></li>
-          <li>Weijia Chen<sup>2</sup></li><li>Hongyu Liu<sup>1</sup></li><li>Zeyue Tian<sup>†1,2</sup></li><li>Qifeng Chen<sup>†1</sup></li>
+          <li>Weijia Chen<sup>2</sup></li><li>Hongyu Liu<sup>1</sup></li><li>Zeyue Tian<sup>†1,2</sup></li><li><a href="https://cqf.io/" target="_blank" rel="noopener noreferrer">Qifeng Chen</a><sup>†1</sup></li>
         </ul>
         <p class="affiliations"><span><sup>1</sup> The Hong Kong University of Science and Technology</span><br><span><sup>2</sup> Noiz AI</span><span><sup>3</sup> MetaX</span><span><sup>4</sup> Shanghai Jiao Tong University</span></p>
         <p class="corresponding-authors"><sup>†</sup> Corresponding authors</p>
